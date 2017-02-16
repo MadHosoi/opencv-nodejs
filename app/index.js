@@ -138,5 +138,5 @@ app.post('/upload', upload.single('file'), function(req, res, next){
 
 http.createServer(app)
   .listen(port, function(server) {
-    console.log('Listening on port http://localhost:%d', port);
+    console.log('Face detection with OpenCV. Listening on port http://localhost:%d', port);
   });
